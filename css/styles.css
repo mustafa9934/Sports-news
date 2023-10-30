@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Freehand&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-dark-1: #000000;
+  --color-dark-2: #b8c2ce;
+  --color-light-1: #ffffff;
+  --color-light-2: #ebeef3;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+.logo {
+  font-family: "Freehand", cursive;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0rem 1.5rem;
+}
